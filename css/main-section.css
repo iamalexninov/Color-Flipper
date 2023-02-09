@@ -1,0 +1,35 @@
+#main-section {
+  position: relative;
+  height: 89.7vh;
+  text-align: center;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#container span {
+  display: block;
+  width: 50vw;
+  padding: 2.5rem;
+  font-size: 32px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  opacity: 0.75;
+  border-radius: 0.75rem;
+}
+
+#container #clickBtn {
+  margin-top: 1rem;
+  background-color: #f27f0c;
+  border: 1px solid black;
+}
+
+#container #clickBtn:hover {
+  background-color: #ffffff;
+  color: black;
+}
